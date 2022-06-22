@@ -35,3 +35,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 "
 map <C-M> <leader>h
+map <C-w> wwwww
+map <C-B> bbbbb
+
