@@ -11,11 +11,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
-Plugin 'pevhall/simple_highlighting'
+Plugin 'piogar/simple_highlighting'
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'mtdl9/vim-log-highlighting'
+Plugin 'piogar/vim-log-highlighting'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
@@ -37,4 +37,5 @@ filetype plugin indent on    " required
 map <C-M> <leader>h
 map <C-w> wwwww
 map <C-B> bbbbb
-
+map <C-l> tabn
+map <C-k> tabp
