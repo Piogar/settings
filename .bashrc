@@ -2,8 +2,14 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-alias gitl="git log --oneline --graph --pretty=format:\"%C(yellow)%h%C(auto)%d %Creset %ae %Cgreen%s%Creset\""
+export http_proxy="http://proxy-colo1.am.hpecore.net:8080"
+export https_proxy="http://proxy-colo1.am.hpecore.net:8080"
+export HTTPS_PROXY="http://proxy-colo1.am.hpecore.net:8080"
+export HTTP_PROXY="http://proxy-colo1.am.hpecore.net:8080"
+
+alias gitla="git log --oneline --graph --pretty=format:\"%C(yellow)%h%C(auto)%d %Creset %ae %Cgreen%s%Creset\""
 alias gitl="git log --all --oneline --graph --pretty=format:\"%C(yellow)%h%C(auto)%d %Creset %ae %Cgreen%s%Creset\""
+alias gits="git status"
 set completion-ignore-case On
 
 # If not running interactively, don't do anything
@@ -92,7 +98,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 
