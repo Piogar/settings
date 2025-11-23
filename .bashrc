@@ -2,11 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export http_proxy="http://proxy-colo1.am.hpecore.net:8080"
-export https_proxy="http://proxy-colo1.am.hpecore.net:8080"
-export HTTPS_PROXY="http://proxy-colo1.am.hpecore.net:8080"
-export HTTP_PROXY="http://proxy-colo1.am.hpecore.net:8080"
-
 alias gitla="git log --oneline --graph --pretty=format:\"%C(yellow)%h%C(auto)%d %Creset %ae %Cgreen%s%Creset\""
 alias gitl="git log --all --oneline --graph --pretty=format:\"%C(yellow)%h%C(auto)%d %Creset %ae %Cgreen%s%Creset\""
 alias gits="git status"
