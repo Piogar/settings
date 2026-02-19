@@ -37,5 +37,10 @@ filetype plugin indent on    " required
 map <C-M> <leader>h
 map <C-w> wwwww
 map <C-B> bbbbb
-map <C-l> tabn
-map <C-k> tabp
+map <C-o> tabn
+map <C-u> tabp
+# jumping by 10
+map <C-i> 10<Up>
+map <C-k> 10<Down>
+map <C-l> wwwwwwwwww
+map <C-j> bbbbbbbbbb
